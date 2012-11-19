@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/samsung/msm7x27-common/vendor.mk
+# include vendor/samsung/msm7x27-common/vendor.mk
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
@@ -31,13 +31,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/gio/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/gio/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
+    vendor/samsung/gio/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/gio/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
     vendor/samsung/gio/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
     vendor/samsung/gio/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/gio/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/gio/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/samsung/gio/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
   
 ## Sensor
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gio/proprietary/lib/hw/sensors.gio.so:system/lib/hw/sensors.gio.so 
+    vendor/samsung/gio/proprietary/lib/hw/sensors.gio.so:system/lib/hw/sensors.gio.so
+
+include vendor/samsung/msm7x27-common/vendor.mk

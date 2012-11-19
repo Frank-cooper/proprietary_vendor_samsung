@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so 
 
-## OMX proprietaries
+## OMX proprietaries (from ZTE Blade)
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
@@ -30,17 +30,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    vendor/samsung/msm7x27-common/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-    vendor/samsung/msm7x27-common/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    vendor/samsung/msm7x27-common/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so 
-
 ## OMX shared
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
@@ -64,10 +60,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/wifi/ath6k/AR6003/hw2.0/data.patch.bin:system/wifi/ath6k/AR6003/hw2.0/data.patch.bin \
     vendor/samsung/msm7x27-common/proprietary/wifi/ath6k/AR6003/hw2.0/otp.bin.z77:system/wifi/ath6k/AR6003/hw2.0/otp.bin.z77 \
     vendor/samsung/msm7x27-common/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/samsung/msm7x27-common/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
+    vendor/samsung/msm7x27-common/proprietary/bin/hostapd_wps:system/bin/hostapd_wps \
     vendor/samsung/msm7x27-common/proprietary/bin/wlan_mac:system/bin/wlan_mac \
     vendor/samsung/msm7x27-common/proprietary/bin/wlan_tool:system/bin/wlan_tool \
     vendor/samsung/msm7x27-common/proprietary/bin/wmiconfig:system/bin/wmiconfig 
-
 ## Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/bin/BCM2049C0_003.001.031.0088.0094.hcd:system/bin/BCM2049C0_003.001.031.0088.0094.hcd \
