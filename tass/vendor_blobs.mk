@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/tass/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/tass/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/tass/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/tass/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
   
 ## Sensor

@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
     vendor/samsung/gio/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/gio/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/gio/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/gio/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
   
 ## Sensor

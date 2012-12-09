@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/cooper/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/cooper/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/cooper/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/cooper/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/cooper/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
   
 ## Sensor
